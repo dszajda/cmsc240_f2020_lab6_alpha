@@ -17,6 +17,7 @@ int CharacterVector::size()
 // than [] so that an out_of_range error will be thrown for an invalid index
 char CharacterVector::get(int index) 
 { 
+    /* Now is the winter of our discontent. */
   return 0;
 }
 
