@@ -34,6 +34,11 @@ int main()
    std::cout << "--------------" << std::endl;
    std::cout << "IntegerVector:" << std::endl;
    std::cout << "--------------" << std::endl;
+   
+   iv.put(4);
+   iv.put(-3);
+   iv.put(21);
+   std::cout << iv.get(2) << std::endl;
 
    //-------------------------------------------------------------------------
 
